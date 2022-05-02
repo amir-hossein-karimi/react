@@ -15,6 +15,7 @@ const Home = ({ onChange, formValue, validate, formError, submit }) => {
     return (
         <div>
             <h1>sample form</h1>
+            <h3>second head</h3>
             {/* form ----------------- */}
             <input type="text" name={'first'} onChange={onChange} />
             {formError && formError.first}
